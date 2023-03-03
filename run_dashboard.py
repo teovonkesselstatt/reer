@@ -5,7 +5,7 @@ import sys
 
 if __name__ == '__main__':
     if runtime.exists():
-        run_app()
+        app.run_app()
     else:
         sys.argv = ["streamlit", "run", sys.argv[0]]
         sys.exit(stcli.main())
