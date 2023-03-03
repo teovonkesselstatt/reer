@@ -1,11 +1,11 @@
 from webapp import app
 from streamlit.web import cli as stcli
-import streamlit as st
+from streamlit import runtime
 import sys
 
-if __name__ == "__main__":
-    if st._is_running_with_streamlit:
-        app.run_app()
+if __name__ == '__main__':
+    if runtime.exists():
+        run_app()
     else:
         sys.argv = ["streamlit", "run", sys.argv[0]]
         sys.exit(stcli.main())
