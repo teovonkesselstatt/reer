@@ -1,4 +1,4 @@
-# inflation_targetting
+# Real Effective Exchange Rates
 
 Esta web app ayuda a pensar cómo stylized facts de tipo de cambio real.
 Consiste en 2 páginas.
