@@ -14,7 +14,7 @@ def run_app():
     page = PAGES[selection]
 
     # Read the CSV file into a pandas dataframe
-    df = pd.read_csv('REER/reer/data/REER_annual.csv')
+    df = pd.read_csv('data/REER_annual.csv')
 
     # Drop first columns
     df = df.iloc[:, 2:]
