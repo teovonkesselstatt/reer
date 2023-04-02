@@ -6,6 +6,7 @@ def run_app():
     PAGES = {
             "Single Region": one_region,
             "All Regions": all_regions,
+            "Regression Results": regression,
             "References": references
         }
 
