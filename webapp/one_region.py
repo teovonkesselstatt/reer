@@ -38,8 +38,6 @@ def run_app():
     df_temp = df[df['Region'] == region]
     df_temp = df_temp.drop('Region', axis = 1)
 
-    #df_temp = df_temp.drop(['Suriname','Venezuela'])
-
     df_temp = df_temp.T
     df_temp.astype(np.float64)
 
