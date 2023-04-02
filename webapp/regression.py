@@ -4,7 +4,6 @@ import altair as alt
 import matplotlib.cm
 import matplotlib.pyplot as plt
 import numpy as np
-from webapp import plotVar
 import statsmodels.formula.api as smf
 import statsmodels.api as sm
 import seaborn as sns
