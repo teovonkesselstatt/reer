@@ -7,6 +7,8 @@ import numpy as np
 
 def run_app():
 
+    # Reset the style to the default
+    plt.style.use('default')
 
     # Read the CSV file into a pandas dataframe
     df = pd.read_csv('data/REER_annual.csv')
